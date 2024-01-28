@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.cxuu6w4qyolq.ap-northeast-2.rds.amazonaws.com:3306/RDSTest?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ${USER_NAME}
+    password: ${PASSWORD}
+  jpa:
+    hibernate.ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
