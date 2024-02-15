@@ -4,4 +4,5 @@
 insert/{String}: DB에 String insert
 find/{Id}: Id로 String 찾기
 
-tistory: [https://epahs1831.tistory.com/2]
+#Tistory
+단순 EC2 및 RDS 사용: [https://epahs1831.tistory.com/2]
